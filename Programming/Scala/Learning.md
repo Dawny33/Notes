@@ -1,0 +1,26 @@
+- Scala compiles to Java bytecode
+- “var" vs “val":
+
+    - val is immutable, while var is mutable.
+    - Example: Look at this example for better understanding:
+    - http://java.sanaulla.info/2009/07/02/val-versus-var-in-scala/
+- Anonymous functions
+    - (x:Int) => x + 1 (If this is executed as res1, then it can be evoked with the name “res1")
+    - Example: res1(3) would give out the value 4.
+    - They can also be passed around as values also.
+    - Example: val AddOne = (x: Int) => x + 1
+    - Now, the value “addOne" can be evoked a function. Example: addOne(3) would return the value 4
+- Partial Applications
+    - Useful post: http://stackoverflow.com/q/8000903/4993513 and this: http://www.slideshare.net/normation/scala-dreaded
+
+    - Discouraged in idiomatic Scala.
+    - Not related:  Prefer “val" against “var"
+- Curried functions
+    - A curried function is one where multiple arguments are described by a series of one-argument functions.  (https://hughfdjackson.com/javascript/why-curry-helps/)
+    - It allows the programmer to apply some arguments now, and some others later.
+    - For example, this function: def multiply(x: Int)(y: Int): Int = x * y is a curried function which takes in two arguments x and y
+    - Now, if we run the function with a partial application, it would create a new function: multiply(2)_, day res1. Now, by executing res1(5) would give the result 10.
+    - Even normal functions can also be curried, and this is how to do it.
+        - Consider a function called adder which adds two numbers: def adder(x:Int, y:Int): Int = x+y.
+        - Now, the function can be curried as follows: val CurriedFunc = (adder _).curried
+        - Now, the curried function can be used as explained in the above bullet, where the curried functions are explained. Example: executing CurriedFunc(4) creates a new function, say res8. Now, use res8 to add any number with 4.
