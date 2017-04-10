@@ -18,3 +18,13 @@
 5. Now, start a Py prompt and do import reader. We can now import reader as a module!  Yay!!
 6. “reader.__file__” gives the path of the reader’s __init__.py
 7. When we import reader (i.e. when we d import reader), the __init__.py is being executed
+
+
+**Relative Imports**
+1. Imports can also use relative path to modules in the same package.
+2. `from .b import B`  <— For the package containing current module
+3. `from ..a import A` <— For package containing the package containing the current module.
+4. Can reduce typing in deeply nested package structure
+5. Promote certain forms of modifiability
+6. Can aid package renaming and refactoring.
+7. However, the general advice is to avoid using them whenever possible
