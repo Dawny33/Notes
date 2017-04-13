@@ -21,5 +21,10 @@ int main()
 1. Some things about cpp:
     1. It is case-sensitive
     2. Uses curly brackets
-    3. ; at end of most lines
+    3. `;` at end of most lines
 2. Not all applications are main()
+3. Compile with `clang <>.cpp`
+4. It would create a file `a.out`.
+5. Now, run it with `./a.out`
+6. So, fist the code is compiled.
+7. If that succeeds, then the compiler output is linked
