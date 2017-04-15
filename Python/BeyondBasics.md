@@ -28,3 +28,20 @@
 5. Promote certain forms of modifiability
 6. Can aid package renaming and refactoring.
 7. However, the general advice is to avoid using them whenever possible
+
+**Functions**
+1. Functional arguments are of 2 types:
+    1. Positional Argument - placed in a particular order
+    2. Keyword argument - takes some value
+    3. Keyword arguments are placed after positional arguments
+    4. `< func_name >(arg1, arg2 = 1.6)` <— `arg1` is a positional argument, `arg2` is a keyword argument
+
+**Callable Instances**
+1. __call___ <— can be used to define classes which when instantiated, can be called using regular function calling syntax
+2. Useful when we want functions to maintain state between calls and needs some methods/actions and queries to modify that state.
+3. Example: Check the code in the `Resolver` folder
+4. `from resolver import Resolver`
+    1. `resolve = Resolver()`
+    2. `resolve.has_host('google.com')`
+    3. `resolve.clear()`
+4. In this example, we can maintain the state of the cache data-structure(list, in this case), also along with modifying it whenever we want.

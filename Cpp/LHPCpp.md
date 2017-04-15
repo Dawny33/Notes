@@ -28,3 +28,10 @@ int main()
 5. Now, run it with `./a.out`
 6. So, fist the code is compiled.
 7. If that succeeds, then the compiler output is linked
+
+**Stream I/O**
+1. `>>` sends something to a stream
+2. `<<` reads something from a stream
+3. `#include <iostream>` for importing the iostream library
+4. `std::cout` means console output.
+5. So, for printing something to console output : `std::cout << “Hello"`
