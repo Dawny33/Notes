@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "1cfGLqYgNk",
+      "guid": "1cfGLqYgNk",
+      "created": "2019-03-04T13:48:08.168Z",
+      "lastUpdated": "2019-03-04T13:48:08.168Z",
+      "rects": {
+        "0": {
+          "left": 256.05248,
+          "top": 456.6666666666667,
+          "right": 624.07381,
+          "bottom": 472.22222222222223,
+          "width": 368.02133,
+          "height": 15.555555555555543
+        },
+        "1": {
+          "left": 192.22222222222223,
+          "top": 472.22222222222223,
+          "right": 432.0889866666667,
+          "bottom": 487.77777777777777,
+          "width": 239.86676444444447,
+          "height": 15.555555555555543
+        }
+      },
+      "textSelections": {
+        "0": {
+          "text": " two novel model architectures for computing continuous vector repre-",
+          "rect": {
+            "left": 256.05248,
+            "top": 456.6666666666667,
+            "right": 624.07381,
+            "bottom": 472.22222222222223,
+            "width": 368.02133000000003,
+            "height": 15.555555555555557
+          }
+        },
+        "1": {
+          "text": "sentations of words from very large data sets.",
+          "rect": {
+            "left": 192.22222222222223,
+            "top": 472.22222222222223,
+            "right": 432.0889866666667,
+            "bottom": 487.77777777777777,
+            "width": 239.86676444444444,
+            "height": 15.555555555555557
+          }
+        }
+      },
+      "text": {
+        "TEXT": "\n two novel model architectures for computing continuous vector repre-\nsentations of words from very large data sets."
+      },
+      "images": {
+        "screenshot": {
+          "type": "png",
+          "src": "screenshot:12C7apDm8P",
+          "width": 389,
+          "height": 27,
+          "rel": "screenshot"
+        }
+      },
+      "notes": {},
+      "questions": {},
+      "flashcards": {},
+      "color": "yellow"
+    }    {
+      "id": "12KQTkzAeA",
+      "guid": "12KQTkzAeA",
+      "created": "2019-03-04T15:15:42.672Z",
+      "lastUpdated": "2019-03-04T15:15:42.672Z",
+      "content": {
+        "HTML": "<p>Motive of the paper</p><p><br></p><p>&nbsp;-&nbsp;<a href=\"https://qr.ae/TWXNJa\">https://qr.ae/TWXNJa</a>&nbsp;: Nice explanation for the word 'conntinuous representation'</p><p><br></p><p>&nbsp;- There are models like n-gram models. But, they dont scale so well with amount of data.&nbsp; (Performance doesn't get significantly better for n-grams model with more and more data)</p><p><br></p><p>&nbsp;-&nbsp;</p>"
+      },
+      "ref": "text-highlight:1cfGLqYgNk"
+    }    {
+      "id": "18J8NNbxgR",
+      "guid": "18J8NNbxgR",
+      "created": "2019-03-04T15:23:18.360Z",
+      "lastUpdated": "2019-03-04T15:23:18.360Z",
+      "rects": {
+        "0": {
+          "left": 176.896885,
+          "top": 164,
+          "right": 672.2299820000001,
+          "bottom": 179,
+          "width": 495.33309700000007,
+          "height": 15
+        },
+        "1": {
+          "left": 144,
+          "top": 179,
+          "right": 398.208552,
+          "bottom": 194,
+          "width": 254.208552,
+          "height": 15
+        }
+      },
+      "textSelections": {
+        "0": {
+          "text": "with the expectation that not only will similar words tend to be close to each other, but that",
+          "rect": {
+            "left": 176.896885,
+            "top": 164,
+            "right": 672.2299820000001,
+            "bottom": 179,
+            "width": 495.333097,
+            "height": 15
+          }
+        },
+        "1": {
+          "text": "words can have",
+          "rect": {
+            "left": 144,
+            "top": 179,
+            "right": 226.90485,
+            "bottom": 194,
+            "width": 82.90485,
+            "height": 15
+          }
+        },
+        "2": {
+          "text": "multiple degrees of similarity",
+          "rect": {
+            "left": 231,
+            "top": 179,
+            "right": 398.208552,
+            "bottom": 194,
+            "width": 167.208552,
+            "height": 15
+          }
+        }
+      },
+      "text": {
+        "TEXT": "\nwith the expectation that not only will similar words tend to be close to each other, but that\nwords can have\nmultiple degrees of similarity"
+      },
+      "images": {
+        "screenshot": {
+          "type": "png",
+          "src": "screenshot:1diFBsQNpp",
+          "width": 527,
+          "height": 215,
+          "rel": "screenshot"
+        }
+      },
+      "notes": {},
+      "questions": {},
+      "flashcards": {},
+      "color": "yellow"
+    }    {
+      "id": "1KihE17jUT",
+      "guid": "1KihE17jUT",
+      "created": "2019-03-04T15:27:38.167Z",
+      "lastUpdated": "2019-03-04T15:27:38.167Z",
+      "content": {
+        "HTML": "<p><b>Goals of the paper:</b></p><p><b><br></b></p><p><b>&nbsp;- </b>To Maximize the vector operations <i>[Example: vec(king) - vec(man) + vec(woman) = vec(Queer)]</i> by developing a new model that preserve the linear regularities among words</p><p><br></p>"
+      },
+      "ref": "text-highlight:18J8NNbxgR"
+    }
+  ]
+
+}
